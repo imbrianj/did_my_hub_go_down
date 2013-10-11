@@ -4,10 +4,10 @@
  *  Author: brian@bevey.org
  *  Date: 9/19/13
  *
- * Attempts to check a device on your hub every half hour to determine
- * if it's still reporting data.  If, during a defined interval, it will let you
- * know that it may be down.  Currently relies on temperature sensors,
- * as they report in regular intervals.
+ *  Attempts to check a device on your hub every half hour to determine
+ *  if it's still reporting data.  If, during a defined interval, it will let
+ *  you know that it may be down.  Currently relies on temperature sensors,
+ *  as they report in regular intervals.
  */
 
 preferences {
