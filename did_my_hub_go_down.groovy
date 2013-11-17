@@ -48,12 +48,12 @@ def scheduleCheck() {
 }
 
 private send(msg) {
-  if (sendPushMessage != "No") {
+  if(sendPushMessage != "No") {
     log.debug("Sending push message")
     sendPush(msg)
   }
 
-  if (phone) {
+  if(phone) {
     log.debug("Sending text message")
     sendSms(phone, msg)
   }
